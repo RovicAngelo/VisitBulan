@@ -1,0 +1,169 @@
+.about-cover{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/church.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.about-cover h1{
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left: 43.3%;
+    margin-top: 23%;
+}
+
+.about-info h1{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 40px;
+
+}
+.about-info{margin: 50px 150px 200px;}
+.about-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.about-logo{
+    width: 210px;
+    height: 210px;
+    flex:1;
+    display: flex;
+    margin-top: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    background-color: #000;
+    border-radius: 50%;
+    animation-name: infiniteupdown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all .3s;
+    box-shadow: 0 0 15px 10px rgb(156, 154, 154);
+}
+
+@keyframes infiniteupdown {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-40px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+
+.about-logo img{
+    width: 250px;
+    height: 100px;
+    margin-top:45px;
+    margin-left: 85px;
+}
+.about-website{flex: 3;}
+
+.about-info a p{
+    padding-right: 2%;
+}
+
+.team-container{display: flex;}
+
+.member-container{
+    max-width: 300px;
+    margin: 30px auto;
+    perspective: 1000px;
+}
+
+.member-card{
+    min-height: 250px;
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    position: relative;
+    transition: .6s linear;
+    transform-style: preserve-3d;
+}
+
+.front, .back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    backface-visibility: hidden;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    transform-style: preserve-3d;
+}
+
+.front{
+    position: relative;
+}
+
+.member1{
+    background-image: url(..//IMAGES/rovic.jpg);
+}
+.member2{
+    background-image: url(..//IMAGES/arnold.png);
+}
+.member3{
+    background-image: url(..//IMAGES/jasper.png);
+}
+.member4{
+    background-image: url(..//IMAGES/renzo.png);
+}
+.back{
+    background-color: #000;
+    position: absolute;
+    transform: rotateY(-180deg);
+    height: 100%;
+    width: 100%;
+}
+
+.member-container:hover .member-card{
+    transform: rotateY(-180deg);
+}
+
+.member-container.card:hover .member-card{
+    transform: rotateY(180deg);
+}
+
+.content{
+    padding: 30px;
+    text-align: center;
+    color:#fff;
+    transform-style: preserve-3d;
+    transform: translateZ(50px);
+}
+
+.content h3{
+    font-size: 32px;
+    line-height: 1;
+    margin: 0;
+    color: transparent;
+}
+.content h5{
+    font-size: 24px;
+    line-height: 1;
+    margin: 0 0 16px;
+}
+.content p{
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.card-button{
+    background: #300;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1;
+    padding: 8px 24px;
+    border-radius: 4px;
+    color:#fff
+}
