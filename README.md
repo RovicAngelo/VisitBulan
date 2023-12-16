@@ -1,2 +1,2 @@
 # HTMLTags
-Coding task in web system and technologies
+Travel Webiste Project in Web System and Technologies
