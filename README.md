@@ -29,4 +29,4 @@
 - [RovicAngelo B. Lanuza](https://github.com/RovicAngelo)
 - [Arnold Ayapana](https://github.com/arnoldayapana)
 - [Renzo Patigayon](https://github.com/RenzoMarv)
-- [Jasper Sus](hhttps://github.com/susjasper)
+- [Jasper Sus](https://github.com/susjasper)
