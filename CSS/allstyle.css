@@ -34,6 +34,7 @@ p{
     padding: 0;
     margin-top: 16px;
     margin-bottom: 16px;
+    z-index: 2;
 }
 
 .navbar ul li{display: inline-block;}
@@ -56,6 +57,22 @@ p{
     border-radius: 15px;
     transform: translateX(8px);
 }
+
+.navbar ul span{
+    position:absolute;
+    top: 0;
+    left: 63%;
+    width: 95px;
+    height: 100%;
+    background: linear-gradient(45deg,#4f1919,#ff3333);
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.navbar ul li a:nth-child(1):hover~span{
+    left: 100px;
+}
+
 
 .contact-row{
     display: flex;
