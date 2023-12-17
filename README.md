@@ -8,17 +8,17 @@
 ## Pages
 
 #### Home page.
-![Home page.gif](./GIF/giphy%20.mp4)
+![Home page.gif](/GIF/giphy%20.mp4)
 
 
 #### Description page.
-![Description page.gif](./GIF/giphy%20(1).mp4)
+![Description page.gif](/GIF/giphy%20(1).mp4)
 
 #### Contact Page.
-![Contact.gif](./GIF/giphy%20(2).mp4)
+![Contact.gif](/GIF/giphy%20(2).mp4)
 
 #### About page.
-![About.gif](./GIF/giphy%20(3).mp4)
+![About.gif](/GIF/giphy%20(3).mp4)
 
 
 ---
