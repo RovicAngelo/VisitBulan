@@ -41,58 +41,50 @@
     border-radius: 8px;
 }
 
-.image3{margin-bottom: 50px;}
-
 .slider{
     position: relative;
     width: 40%;
     height: 40%;
     overflow: hidden;
 }
+
 .images{
     display:flex;
-    width: 100%;
+    width: 418px;
+    height: 323px;
     background-repeat: no-repeat;
 }
 
-.images img{
+.images img {
     padding-top: 0;
     height: 100%;
-    width: 100%;
+    width: 418px; /* You can change this to a fixed width value */
+    max-width: 100%;
     transition: all 0.15s ease;
 }
+
 
 .images input{display:none;}
 
-.dots{
-    display: flex;
-    justify-content: center;
-    margin: 3px;
-}
-
-.dots label{
-    height: 8px;
-    width: 8px;
-    border-radius: 50%;
-    border: solid black 2px;
+.sliderbtn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .5;
     cursor: pointer;
-    transition: all 0.15s ease;
-    margin: 2px;
+    height:50px;
+    width: 40px;
+    border-radius: 50%;
+    border-style: none;
 }
+.sliderbtn:hover{opacity: 1;}
 
-.dots label:hover{background: black;}
+.sliderbtn.prev{left: 10px}
 
-#img1:checked ~ .m1{margin-left: 0;}
-#img2:checked ~ .m2{margin-left: -100%;}
-#img3:checked ~ .m3{margin-left: -200%;}
-#img4:checked ~ .m4{margin-left: -300%;}
-#img5:checked ~ .m5{margin-left: -400%;}
-#img6:checked ~ .m6{margin-left: -500%;}
-#img7:checked ~ .m7{margin-left: -600%;}
+.sliderbtn.next{right: 10px}
 
-.park-beach-container{
-    margin-bottom:300px;
-}
+.park-beach-container{margin-bottom:300px;}
+
 .row-card{
     width: 530%;
     height: 50vh;
@@ -232,7 +224,6 @@
     width: 45%;
     height: auto;
 }
-
 .suitable{
     display: flex;
     justify-content: space-between;
@@ -246,12 +237,6 @@
 
 .description-text{
     padding: 10px 10px;
-}
-
-.art{
-    color: black;
-    width:13%;
-    height: 15%;
 }
 
 .rating{
@@ -273,6 +258,3 @@
     color:rgb(254,218,16);
     font-size: 15px;
 }
-
-
-
