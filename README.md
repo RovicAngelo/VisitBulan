@@ -8,19 +8,19 @@
 ## Pages
 
 #### Home page.
-![Home page.gif](/GIF/giphy.mp4)
-<img src="./your-gif-filename.gif" alt="Alt Text" width="300" height="200" autoplay>
-
-
+<img src="./GIF/1.gif" alt="Alt Text" width="300" height="200" >
+<br><br><br>
 
 #### Description page.
-![Description page.gif](/GIF/giphy%20(1).mp4)
+<img src="./GIF/2.gif" alt="Alt Text" width="300" height="200" >
+<br><br><br>
 
 #### Contact Page.
-![Contact.gif](/GIF/giphy%20(2).mp4)
+<img src="./GIF/3.gif" alt="Alt Text" width="300" height="200" >
+<br><br><br>
 
 #### About page.
-![About.gif](/GIF/giphy%20(3).mp4)
+<img src="./GIF/4.gif" alt="Alt Text" width="300" height="200" autoplay>
 
 
 ---
