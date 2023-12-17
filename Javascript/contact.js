@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const subject = 'New Message from Your Website';
         const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
 
-        const mailtoLink = `mailto:lanuzamadelandrea@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        const mailtoLink = `mailto:rovicangelolanuza9@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
         window.location.href = mailtoLink;
 
