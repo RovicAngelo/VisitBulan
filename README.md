@@ -7,20 +7,20 @@
 --- 
 ## Pages
 
-#### Home page.
-<img src="./GIF/1.gif" alt="Alt Text" width="300" height="200" >
+### Home page.
+<img src="./GIF/1.gif" alt="Alt Text" width="700" height="500">
 <br><br><br>
 
-#### Description page.
-<img src="./GIF/2.gif" alt="Alt Text" width="300" height="200" >
+### Description page.
+<img src="./GIF/2.gif" alt="Alt Text" width="700" height="500" >
 <br><br><br>
 
-#### Contact Page.
-<img src="./GIF/3.gif" alt="Alt Text" width="300" height="200" >
+### Contact Page.
+<img src="./GIF/3.gif" alt="Alt Text" width="700" height="500" >
 <br><br><br>
 
-#### About page.
-<img src="./GIF/4.gif" alt="Alt Text" width="300" height="200" autoplay>
+### About page.
+<img src="./GIF/4.gif" alt="Alt Text" width="700" height="500">
 
 
 ---
