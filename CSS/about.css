@@ -74,13 +74,13 @@
 .team-container{display: flex;}
 
 .member-container{
-    max-width: 300px;
+    max-width: 200px;
     margin: 30px auto;
     perspective: 1000px;
 }
 
 .member-card{
-    min-height: 250px;
+    min-height: 200px;
     display: flex;
     align-items: stretch;
     justify-content: stretch;
@@ -117,6 +117,9 @@
 .member4{
     background-image: url(..//IMAGES/renzo.png);
 }
+.member5{
+    background-image: url(..//IMAGES/renzo.png);
+}   
 .back{
     background-color: #000;
     position: absolute;
