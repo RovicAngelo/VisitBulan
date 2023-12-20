@@ -2,7 +2,7 @@
 
 #### _Final Project in Web System and Technologies._
   
- >Note: This project is created by BS Information Technology third year students :smiley:
+ >https://rovicangelo.github.io/TravelWebsite/
 
 --- 
 ## Pages
