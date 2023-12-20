@@ -30,3 +30,4 @@
 - [Arnold Ayapana](https://github.com/arnoldayapana)
 - [Renzo Patigayon](https://github.com/RenzoMarv)
 - [Jasper Sus](https://github.com/susjasper)
+- [Arvin Catalbas](https://github.com/arvincatalbas)
