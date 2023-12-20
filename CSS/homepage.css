@@ -80,7 +80,7 @@
 
 
 .top-container{
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/Background.png");
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../IMAGES/Background.png");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -201,11 +201,11 @@
     background-position: center;
     position: relative;
 }
-.card1{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/bitonBeach.png");}
-.card2{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/church.png");}
-.card3{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/padarawfestival.jpeg");}
-.card4{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/sabangbeach.jpg");}
-.card5{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/museum.png");}
+.card1{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../IMAGES/bitonBeach.png");}
+.card2{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../IMAGES/church.png");}
+.card3{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../IMAGES/padarawfestival.jpeg");}
+.card4{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../IMAGES/sabangbeach.jpg");}
+.card5{background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../IMAGES/museum.png");}
 .card:hover{transform: translateY(-10px);}
 .card h5{
     color: #fff;
