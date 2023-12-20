@@ -1,5 +1,5 @@
 .about-cover{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/church.png");
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../IMAGES/church.png");
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -105,21 +105,11 @@
     position: relative;
 }
 
-.member1{
-    background-image: url(..//IMAGES/rovic.jpg);
-}
-.member2{
-    background-image: url(..//IMAGES/arnold.png);
-}
-.member3{
-    background-image: url(..//IMAGES/jasper.png);
-}
-.member4{
-    background-image: url(..//IMAGES/renzo.png);
-}
-.member5{
-    background-image: url(..//IMAGES/renzo.png);
-}   
+.member1{background-image: url(..//IMAGES/rovic.jpg);}
+.member2{background-image: url(..//IMAGES/arnold.png);}
+.member3{background-image: url(..//IMAGES/jasper.png);}
+.member4{background-image: url(..//IMAGES/renzo.png);}
+.member5{background-image: url(..//IMAGES/Arvin.png);}   
 .back{
     background-color: #000;
     position: absolute;

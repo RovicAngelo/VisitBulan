@@ -4,7 +4,7 @@
 }
 
 .destination-cover{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/church.png"); ;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../IMAGES/church.png"); ;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -195,16 +195,16 @@
     transition: transform 0.5s;
 }
 
-.card1{background-image: url("../images/karls.png");}
-.card2{background-image: url("../images/gotis\ ladging\ house.jpeg");}
-.card3{background-image: url("../images/LaBella.png");}
-.card4{background-image: url("../images/joyland.png");}
-.card5{background-image: url("../images/joll.PNG");}
-.card6{background-image: url("../images/bento.jpg");}
-.card7{background-image: url("../images/dragonHouse.png");}
-.card8{background-image: url("../images/Maskinano.png");}
-.card9{background-image: url("../images/mama\ vacion.png");}
-.card10{background-image: url("../images/caree.png");}
+.card1 {background-image: url(../IMAGES/karls.png);}
+.card2 {background-image: url(../IMAGES/gotis\ ladging\ house.jpeg);}
+.card3 {background-image: url(../IMAGES/LaBella.png);}
+.card4 {background-image: url(../IMAGES/joyland.png);}
+.card5 {background-image: url(../IMAGES/joll.PNG);}
+.card6 {background-image: url(../IMAGES/bento.jpg);}
+.card7 {background-image: url(../IMAGES/dragonHouse.png);}
+.card8 {background-image: url(../IMAGES/Maskinano.png);}
+.card9 {background-image: url(../IMAGES/mama\ vacion.png);}
+.card10 {background-image: url(../IMAGES/caree.png);}
 .card-container:hover{transform: translateY(-5px);}
 
 .card-text{
@@ -224,6 +224,7 @@
     width: 45%;
     height: auto;
 }
+
 .suitable{
     display: flex;
     justify-content: space-between;
