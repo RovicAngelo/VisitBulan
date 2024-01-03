@@ -2,7 +2,7 @@
 
 #### _Final Project in Web System and Technologies._
   
- >https://rovicangelo.github.io/TravelWebsite/
+ >https://rovicangelo.github.io/VisitBulan/
 
 --- 
 ## Pages
